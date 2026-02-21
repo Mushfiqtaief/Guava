@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.navigation/
+
+# Local properties (contains SDK path)
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# APK / AAB outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing
+*.jks
+*.keystore
+
+# Proguard
+app/proguard-rules.pro.bak
+
+# Captures
+captures/
+
+# External tools
+.externalNativeBuild/
+.cxx/
+
+# Google Services (if added later)
+google-services.json

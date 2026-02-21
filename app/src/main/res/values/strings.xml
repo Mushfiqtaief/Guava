@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Guava</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_webhooks">Webhooks</string>
+    <string name="nav_settings">Settings</string>
+</resources>

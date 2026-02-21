@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#F5F0EB</color>
+
+    <!-- Material 3 Dark Theme Colors (FLClash-inspired blue) -->
+    <color name="md_primary">#ACC7FF</color>
+    <color name="md_on_primary">#002E6A</color>
+    <color name="md_primary_container">#17458B</color>
+    <color name="md_on_primary_container">#D7E3FF</color>
+
+    <color name="md_secondary">#BEC6DC</color>
+    <color name="md_on_secondary">#283141</color>
+    <color name="md_secondary_container">#3F4759</color>
+    <color name="md_on_secondary_container">#DAE2F9</color>
+
+    <color name="md_tertiary">#DDBCE0</color>
+    <color name="md_on_tertiary">#3F2844</color>
+    <color name="md_tertiary_container">#57405B</color>
+    <color name="md_on_tertiary_container">#FAD8FD</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="md_surface">#111318</color>
+    <color name="md_on_surface">#E2E2E9</color>
+    <color name="md_on_surface_variant">#C4C6D0</color>
+    <color name="md_surface_variant">#44474E</color>
+
+    <color name="md_outline">#8E9099</color>
+    <color name="md_outline_variant">#44474E</color>
+
+    <color name="md_surface_container_lowest">#0C0E13</color>
+    <color name="md_surface_container_low">#1A1B21</color>
+    <color name="md_surface_container">#1E1F25</color>
+    <color name="md_surface_container_high">#282A30</color>
+    <color name="md_surface_container_highest">#33353B</color>
+
+    <color name="md_inverse_surface">#E2E2E9</color>
+    <color name="md_inverse_on_surface">#2F3036</color>
+    <color name="md_inverse_primary">#345CA8</color>
+
+    <!-- Status colors -->
+    <color name="status_success">#81C784</color>
+    <color name="status_warning">#FFD54F</color>
+    <color name="status_error">#EF5350</color>
+</resources>
