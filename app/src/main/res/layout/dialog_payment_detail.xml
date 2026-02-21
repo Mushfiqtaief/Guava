@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1A1A33"
+    android:padding="20dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp">
+
+            <View
+                android:id="@+id/dialogIconBg"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/icon_bkash_bg" />
+
+            <TextView
+                android:id="@+id/dialogMethodIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="b"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialogMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bKash Payment"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dialogTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feb 18, 2026 02:30 PM"
+                android:textColor="#6C6C8A"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialogStatusBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="SENT"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:letterSpacing="0.05"
+            android:background="@drawable/badge_sent" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2A2A48"
+        android:layout_marginBottom="14dp" />
+
+    <!-- Amount -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textColor="#6C6C8A"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/dialogAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৳500.00"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- TrxID -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="TrxID"
+            android:textColor="#6C6C8A"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/dialogTrxId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC1234567"
+            android:textColor="#64B5F6"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <!-- Sender -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14dp">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="#6C6C8A"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/dialogSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bKash"
+            android:textColor="#9090B0"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2A2A48"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Full SMS label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full SMS"
+        android:textColor="#6C6C8A"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.06"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Full SMS body -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp">
+
+        <TextView
+            android:id="@+id/dialogSmsBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full SMS body text here..."
+            android:textColor="#B0B0CC"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:background="#10102A"
+            android:padding="12dp"
+            android:fontFamily="monospace" />
+    </ScrollView>
+
+</LinearLayout>
